@@ -15,10 +15,28 @@ a {
   &:focus,
   &:hover {
     color: rgba(#000, 0.6);
+
   }
 }
 
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
+}
+
+.pai{
+  display: flex;
+  justify-content: center;
+
+  &--filho{
+    color: white;
+    width: 200px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  &--filho:hover{
+    opacity: 0.5;
+  }
 }
